@@ -7,7 +7,7 @@ To perform this test, please fork the repository and open a pull request when yo
 ## Objective
 Given an undirected graph, you need to compute a path which travels each edge at least one time (pseudo-eulerian path), total distance traveled (sum of edges' weight) being the smallest possible.
 
-⚠️ the resulting path must cover every **edges** !!
+⚠️ the resulting path must cover every **edge** !!
 
 ## Input
 A few graph instances are available in a folder named `instances`.
