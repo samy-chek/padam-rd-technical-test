@@ -57,3 +57,35 @@ def parse_file(file_name: str) -> tuple[list[tuple], list[tuple]]:
             edges.append((vertex_1, vertex_2, weight, coordinates_1, coordinates_2))
 
     return vertices, edges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
