@@ -16,6 +16,20 @@ class Graph:
         self.vertices = vertices
         self.edges = edges
 
+    def find_path(self):
+        """
+        We will find a path that ensures that all edges are covered (greedy) even if t
+        
+        """
+
+        path = []
+        stack = [self.edges[0][0]]  # On commence par un des sommets de la première arête
+        
+        # Copie des arêtes pour éviter les modifications lors de l'itération
+        edges_copy = [edge for edge in self.edges]
+
+        
+
     def plot(self):
         """
         Plot the graph.
