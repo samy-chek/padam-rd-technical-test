@@ -18,7 +18,7 @@ def main():
     
     if plot_graph:
         graph.plot()
-    plot_graph
+    graph.plot()
 
 if __name__ == "__main__":
     main()
