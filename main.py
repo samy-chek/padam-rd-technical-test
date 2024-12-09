@@ -11,6 +11,8 @@ def main():
     
     for vertice in graph.vertices:
         print(vertice)
+    for edge in graph.edges:
+        print(edge)
     
     
     # On trouve un chemin qui passe par toutes les arêtes
